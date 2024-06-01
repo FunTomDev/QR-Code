@@ -99,12 +99,12 @@ body{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  padding: 16px;
 }
 
 .qrcode-block{
   width: 288px;
   height: 288px;
-  margin-top: 16px;
 
   img{
     border-radius: 10px;
@@ -112,21 +112,23 @@ body{
 }
 
 .text-block{
-  margin: 16px;
+  margin: 24px 0;
+  padding: 0px 16px;
   h1{
     font-family: var(--ff-heading);
     font-weight: var(--fw-bold);
     font-size: var(--fs-700);
     text-align: center;
     color: var(--clr-primary-400);
-    line-height: 1.25;
+    line-height: 1.273;
   }
   p{
     font-family: var(--ff-body);
     font-weight: var(--fw-primary);
     font-size: var(--fs-400);
     text-align: center;
-    margin: 16px;
+    margin-top: 16px;
     color: var(--clr-primary-300);
+    line-height: 1.267;
   }
 }
